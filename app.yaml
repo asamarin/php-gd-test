@@ -1,0 +1,10 @@
+application: seraphic-cocoa-771
+version: php-gd
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /phpinfo
+  script: phpinfo.php
+- url: /image
+  script: image.php
